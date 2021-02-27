@@ -1,0 +1,9 @@
+.header{
+    border: white 1px solid;
+    border: solid 1px solid;
+    width: 400px;
+    color: rgb(220, 202, 66);
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+}

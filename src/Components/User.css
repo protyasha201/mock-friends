@@ -1,0 +1,81 @@
+.user-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.user{
+    border: solid 1px white;
+    width: 400px;
+    padding: 20px;
+    color: rgb(123, 162, 209);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.preview{
+    background-color: rgb(36, 42, 53);
+    height: 200px;
+    position: sticky;
+    top: 0%;
+    color: rgb(48, 184, 80);
+    border: 1px solid rgb(18, 128, 182);
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+}
+
+.preview h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.buttons{
+    display: flex;
+    column-gap: 40px;
+}
+
+.add-btn{
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    width: 130px;
+    padding: 10px;
+    font-size: 20px;
+    background-image: linear-gradient(160deg, rgb(36, 223, 223), rgb(74, 240, 74));
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    background-image: linear-gradient(130deg, rgb(87, 216, 87), rgb(140, 192, 209));
+}
+
+.remove-btn{
+    border-radius: 10px;
+    background-color:rgb(253, 57, 57);
+    font-size: 20px;
+    padding: 10px;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+}
+
+.remove-btn:hover{
+    background-color: rgb(236, 43, 43);
+}
+
+.user .profile{
+    width: 150px;
+    /* border-radius: 50%; */
+    /* border: white 1px solid; */
+}
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+    border: solid 3px rgb(65, 64, 64);
+}
